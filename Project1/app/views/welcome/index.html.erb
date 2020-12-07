@@ -1,0 +1,21 @@
+<h1>Welcome</h1>
+<p>Hello world!!!! My first code in rails</p>
+<%= link_to 'My Blog', controller: 'articles' %>
+<%
+=begin%>
+ <p>This is the value: <%=@id %></p>
+
+<%= form_tag blog_path do%>
+<div>
+<%= text_field_tag :title %>
+  </div>
+
+
+<div>
+<%= text_area_tag :body %>
+  </div>
+
+  <%= submit_tag "Create Post"%>
+<% end %> 
+<%
+=end%>

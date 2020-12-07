@@ -1,0 +1,7 @@
+obj ={
+	"name"=>"nihal",
+	:age => 22,
+	21=>22
+}
+
+puts obj['name'] obj[:ageK]
